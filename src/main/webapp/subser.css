@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /*  1rem = 10px  */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  display: flex;
+  margin: 2rem auto;
+  width: 80rem;
+  max-width: 95%;
+  border: 0.2rem solid rgb(180, 180, 180);
+  box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem rgb(180, 180, 180);
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.box_image img {
+  width: 20rem;
+  height: 30rem;
+}
+
+.box_content {
+  padding: 2rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content_details {
+  margin: 1rem;
+}
+
+.box:hover {
+  box-shadow: 0.1rem 0.1rem 1.2rem 1.2rem rgb(180, 180, 180);
+}
+.anchornoeffect
+{
+	Text-Decoration: None !important; 
+	color:#000000;
+}
